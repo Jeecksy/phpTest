@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 
 	<title>test</title>
 </head>
@@ -16,11 +16,11 @@
 			alert("Debe ingresar un nombre para el registro.");
 			return false;
 		}
-		if (y == ""){
+		if (y == "") {
 			alert("Debes ingresar tu contraseña secreta.")
 			return false;
 		}
-		if (y != z){
+		if (y != z) {
 			alert("Tu confirmación de contraseña no es la misma.")
 			return false;
 		}
@@ -59,7 +59,7 @@
 			<a href ="login.php">Volver al Inicio de Sesión</a>
 			<br>
 		</form>
-		
+
 		<div>
 		</body>
 
